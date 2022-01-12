@@ -60,6 +60,7 @@ hr{
 .blog{
     display: flex;
     padding-left: 30px;
+    margin-bottom: 21px;
     
 }
 .blog-info{
@@ -102,11 +103,11 @@ hr{
     color: #AEAEAE;
 }
 .course-duration{
+    display: flex;
     width: 95px;
+    height: 29px;
     border-radius: 10px;
     background-color:#FFE4E8;
     color: #FF4A60;
-    margin-left: 21px;
-    padding-left: 10px;
 }
 

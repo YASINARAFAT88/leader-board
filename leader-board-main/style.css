@@ -1,0 +1,112 @@
+body{
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* Main Setion start  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    width: 870px;
+    background-color: #FFFFFF;
+    align-items: center;
+    right: 285px;
+    margin-top: 21px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-bottom: 33px;
+    padding-left: 33px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 16px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 27px;
+}
+
+ /*----------------
+     Blog Section
+ ----------------- */
+
+.parent-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 26px;
+}
+.blog{
+    display: flex;
+    padding-left: 30px;
+    
+}
+.blog-info{
+    padding-left: 18px;
+}
+.author-name{
+    color: #D1D1D1;
+}
+.author-name a{
+    font-size: 16px;
+    color: #562EFF;
+    text-decoration: none;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+
+/*----------------- 
+  Latest Courses
+--------------------*/
+.parent-father{
+    display: flex;
+    align-items: center;
+}
+.courses{
+    padding-left: 39px;
+}
+.banner img{
+    width: 224px;
+}
+.courses-rating{
+    display: flex;
+    margin-right: 62px;
+}
+.fa-star.fielld{
+    color:#FFC014;
+}
+.fa-star{
+    color: #AEAEAE;
+}
+.course-duration{
+    width: 95px;
+    border-radius: 10px;
+    background-color:#FFE4E8;
+    color: #FF4A60;
+    margin-left: 21px;
+    padding-left: 10px;
+}
+

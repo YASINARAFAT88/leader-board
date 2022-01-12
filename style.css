@@ -19,6 +19,7 @@ main{
     align-items: center;
     right: 285px;
     margin-top: 21px;
+    padding-bottom: 22px;
 }
 .section-title{
     color: #562EFF;
@@ -87,14 +88,16 @@ hr{
     align-items: center;
 }
 .courses{
-    padding-left: 39px;
+    padding-left: 20px;
+    border-radius: 10px;
 }
 .banner img{
     width: 224px;
 }
 .courses-rating{
+    flex-direction: row;
     display: flex;
-    margin-right: 62px;
+    justify-content: space-between;
 }
 .fa-star.fielld{
     color:#FFC014;
@@ -103,11 +106,23 @@ hr{
     color: #AEAEAE;
 }
 .course-duration{
+    align-items: center;
     display: flex;
     width: 95px;
     height: 29px;
     border-radius: 10px;
     background-color:#FFE4E8;
     color: #FF4A60;
+}
+.courses-author{
+    color:#FF4A60 ;
+    font-size: 14px;
+}
+.time{
+    font-size: 15px;
+}
+.fa-clock{
+    font-size: 15px;
+    margin-left: 6px;
 }
 
